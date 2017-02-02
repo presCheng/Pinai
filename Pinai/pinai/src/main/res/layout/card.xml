@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:layout_below="@+id/top"
+    android:layout_margin="30dp"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout01"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bgjly"
+            android:scaleType="matrix" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout02"
+        android:visibility="gone"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+       >
+
+        <ImageView
+            android:id="@+id/match_card"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:scaleType="matrix" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/yying"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="白色系少女"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_alignTop="@+id/nickname"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/nickname"
+            android:layout_toRightOf="@+id/nickname"
+            />
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="1960"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

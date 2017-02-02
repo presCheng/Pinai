@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:Android="http://schemas.android.com/apk/res/android">
+    <item Android:state_active="true">
+        <shape>
+            <stroke Android:width="1dp" Android:color="@color/background_pink" Android:dashWidth="0dp" />
+            <solid Android:color="@color/white" />
+            <corners Android:radius="5dp" />
+        </shape>
+    </item>
+    <item Android:state_focused="true">
+        <shape>
+            <stroke Android:width="1dp" Android:color="@color/background_pink" Android:dashWidth="0dp" />
+            <solid Android:color="@color/white" />
+            <corners Android:radius="5dp" />
+        </shape>
+    </item>
+    <item Android:state_selected="true">
+        <shape>
+            <stroke Android:width="1dp" Android:color="@color/background_pink" Android:dashWidth="0dp" />
+            <solid Android:color="@color/white" />
+            <corners Android:radius="5dp" />
+        </shape>
+    </item>
+    <item Android:state_pressed="true">
+        <shape>
+            <stroke Android:width="1dp" Android:color="@color/background_pink" Android:dashWidth="0dp" />
+            <solid Android:color="@color/white" />
+            <corners Android:radius="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke Android:width="1dp" Android:color="@color/gray" Android:dashWidth="0dp" />
+            <solid Android:color="@color/white" />
+            <corners Android:radius="5dp" />
+        </shape>
+    </item>
+
+</selector>

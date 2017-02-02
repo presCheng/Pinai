@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">登陆</string>
+    <string name="login_ing">正在登录...</string>
+    <string name="login_fail">登录失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="app_name">聘爱</string>
+    <string name="aty_index">招聘大厅</string>
+    <string name="aty_Taziliao">Ta的资料</string>
+    <string name="aty_ChaseMe">我追的人</string>
+    <string name="aty_danshengongyu">淘简历</string>
+    <string name="aty_xinxi">HR</string>
+    <string name="aty_gerenzhongxin">办公室</string>
+    <string name="r_shouye">首页</string>
+    <string name="pwd_is_not_empty">密码不能为空！</string>
+    <string name="username">手机号</string>
+    <string name="password">密码</string>
+    <string name="pin_ai_logo">聘爱logo</string>
+    <string name="que_ren">确认</string>
+    <string name="query_que_ren">确认密码</string>
+    <string name="shou_ji_zhu_ce">手机注册</string>
+    <string name="check_fail">验证失败</string>
+    <string name="user_password_not_empty">用户名密码不能为空</string>
+    <string name="aqzs">单身公寓</string>
+    <string name="jszl">单身男女的三次元世界 zuest</string>
+    <string name="mens">男生公寓</string>
+    <string name="nowomen">女生止步，晚9~10点女生可进噢~</string>
+    <string name="womens">女生公寓</string>
+    <string name="nomen">男生止步，晚9~10点男生可进噢~</string>
+    <string name="aty_woziliao">我的资料</string>
+    <string name="get_resume">"新的简历"</string>
+    <string name="about">"聘爱是由94后在校大学生组成，是一群有梦想的团队，如果你是某个领域的优秀人才，想加入我们请联系我们哦"</string>
+    <string name="about2">"QQ：523591643
+Tel：15636129303
+Mail：support@pinai521.com"</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">送达</string>
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="send_fail">发送消息失败,</string>
+    <string name="delete_message">删除消息</string>
+    <string name="copy_message">复制消息</string>
+    <string name="delete_voice">删除语音</string>
+    <string name="delete_video">删除视频</string>
+    <string name="delete">删除</string>
+    <string name="resend">重发</string>
+    <string name="confirm_resend">确认重发该信息？</string>
+    <string name="connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="network_unavailable">网络连接不可用，请检查网络</string>
+    <string name="copy">复制</string>
+    <string name="forward">转发</string>
+    <string name="button_logout">退出登录</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="prompt">提示</string>
+    <string name="clear_records">清空记录</string>
+    <string name="clear_all_records">是否清空所有聊天记录？</string>
+    <string name="location_recv">[%1$s的位置]</string>
+    <string name="location_message">位置信息</string>
+    <string name="recording_video">录制视频</string>
+    <string name="location_prefix">[我的位置]</string>
+    <string name="voice">[语音]</string>
+    <string name="picture">[图片]</string>
+    <string name="video">[视频]</string>
+    <string name="file">[文件]</string>
+    <string name="voice_call">[语音通话]</string>
+
+    <string name="button_cancel">取消</string>
+    <string name="button_save">保存</string>
+    <string name="button_search">查找</string>
+    <string name="button_add">添加</string>
+    <string name="search_header">S</string>
+
+    <string name="network_isnot_available">网络不可用</string>
+    <string name="recoding_fail">录音失败，请重试！</string>
+    <string name="select_contacts">选择联系人</string>
+    <string name="confirm_forward_to">确定转发到：%1$s ?</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_hint">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+    <string name="exit_group_hint">退出后，将不再接收此群聊信息</string>
+    <string name="dissolution_group_hint">退出后，此群将被解散</string>
+    <string name="exit_group">退出</string>
+    <string name="connect_conflict">同一帐号已在其他设备登录</string>
+    <string name="notify_title">消息提醒</string>
+    <string name="you_have_a_friend_request">有一个好友邀请</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="send_a_resume">投递简历</string>
+
+    <string name="tb_munion_tip_download_prefix">正在下载</string>
+    <string name="textOff">Off</string>
+    <string name="textOn">On</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="aiqingxuanyuan">爱情考验</string>
+<string name="qzp_zhaopinci">大学不想给自己留下遗憾
+我是一个XXX的人，我比较喜欢吃XXX，
+爱玩XXX，我希望能遇到一个XXX样的人。
+如果你觉得我可以，请来应聘哦~</string>
+</resources>

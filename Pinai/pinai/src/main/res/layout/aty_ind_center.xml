@@ -1,0 +1,314 @@
+
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/center_background"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@color/background_blue"
+            android:fitsSystemWindows="false"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+            <ImageView
+                android:id="@+id/ind_head"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp" />
+            <TextView
+                android:id="@+id/ind_nickname"
+                android:text="KimXU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/ind_head"
+                android:layout_toRightOf="@+id/ind_head"
+                android:layout_toEndOf="@+id/ind_head" />
+
+            <TextView
+                android:id="@+id/ind_pazs"
+                android:text="聘爱指数："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_below="@+id/ind_nickname"
+                android:layout_alignLeft="@+id/ind_nickname"
+                android:layout_alignStart="@+id/ind_nickname" />
+
+            <TextView
+                android:id="@+id/ind_gogo_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="已连续签到"
+                android:padding="4dp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_below="@+id/ind_pazs"
+                android:layout_alignLeft="@+id/ind_pazs"
+                android:layout_alignStart="@+id/ind_pazs" />
+
+            <TextView
+                android:id="@+id/ind_gogo"
+                android:layout_width="50dp"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:background="@drawable/select_gogo"
+                android:text="签到"
+                android:textColor="@color/background_blue"
+                android:textSize="14sp"
+                android:layout_alignTop="@+id/ind_gogo_day"
+                android:layout_toRightOf="@+id/ind_gogo_day"
+                android:layout_toEndOf="@+id/ind_gogo_day" />
+            <ImageView
+                android:id="@+id/verify"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/v"
+                android:visibility="gone"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignBottom="@+id/ind_head"
+                android:layout_alignRight="@+id/ind_head"
+                android:layout_alignEnd="@+id/ind_head" />
+        </RelativeLayout>
+        <View style="@style/ind_line" />
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/ind_chaser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/indTvW1"
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvW1"
+                android:text="我的简历" />
+
+            <ImageView
+                android:id="@+id/indIvW1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_zw" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvW1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+
+        <View style="@style/ind_line" />
+
+
+        <RelativeLayout
+            android:id="@+id/ind_sent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+
+                android:id="@+id/indTvW3"
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvW3"
+                android:text="已发简历" />
+
+            <ImageView
+                android:id="@+id/indIvW3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_fajianli" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvW3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+
+        <View style="@style/ind_line" />
+
+        <RelativeLayout
+            android:id="@+id/ind_my_tiezi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+
+                android:id="@+id/indTvW4"
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvW4"
+                android:text="我的公寓" />
+
+            <ImageView
+                android:id="@+id/indIvW4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_mytiezi" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvW4"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+
+        <View style="@style/ind_line" />
+        <RelativeLayout
+            android:id="@+id/ind_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/indTvW5"
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvW5"
+                android:text="上报物业" />
+
+            <ImageView
+                android:id="@+id/indIvW5"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_feedback" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvW5"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+
+        <View style="@style/ind_line" />
+
+        <RelativeLayout
+            android:id="@+id/ind_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/indTvY3"
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvY1"
+                android:text="BOSS简历" />
+
+            <ImageView
+                android:id="@+id/indIvY1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_about" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvY1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+
+        <View style="@style/ind_line" />
+
+
+        <RelativeLayout
+            android:id="@+id/ind_setting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ind_selected"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/indTvY1"
+
+                style="@style/ind_center_font"
+                android:layout_toRightOf="@+id/indIvY2"
+                android:text="我要下班" />
+
+            <ImageView
+                android:id="@+id/indIvY2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ig_setting" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/indIvY2"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ig_right" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

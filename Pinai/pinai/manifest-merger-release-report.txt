@@ -1,0 +1,574 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:17
+application
+ADDED from AndroidManifest.xml:27:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from NewPinAi:library:unspecified:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from NewPinAi:photolibrary:unspecified:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from NewPinAi:smssdk:unspecified:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:debuggable
+		ADDED from NewPinAi:smssdk:unspecified:13:9
+	android:label
+		ADDED from AndroidManifest.xml:31:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:29:9
+	android:icon
+		ADDED from AndroidManifest.xml:30:9
+	android:hardwareAccelerated
+		ADDED from NewPinAi:photolibrary:unspecified:13:9
+	android:theme
+		ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:28:9
+meta-data#UMENG_APPKEY
+ADDED from AndroidManifest.xml:33:9
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+	android:value
+		ADDED from AndroidManifest.xml:35:13
+meta-data#UMENG_CHANNEL
+ADDED from AndroidManifest.xml:36:9
+	android:name
+		ADDED from AndroidManifest.xml:37:13
+	android:value
+		ADDED from AndroidManifest.xml:38:13
+service#com.umeng.update.net.DownloadingService
+ADDED from AndroidManifest.xml:40:9
+	android:process
+		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from AndroidManifest.xml:43:9
+	android:theme
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#cn.smssdk.SMSSDKUIShell
+ADDED from AndroidManifest.xml:47:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:51:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:49:13
+	android:theme
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+activity#com.AtyWel
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:54:13
+	android:theme
+		ADDED from AndroidManifest.xml:55:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:56:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:57:17
+	android:name
+		ADDED from AndroidManifest.xml:57:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:58:17
+	android:name
+		ADDED from AndroidManifest.xml:58:27
+activity#com.AtyGuide
+ADDED from AndroidManifest.xml:61:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:64:13
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:theme
+		ADDED from AndroidManifest.xml:65:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+activity#com.AtyNotify
+ADDED from AndroidManifest.xml:66:9
+	android:label
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.AtyMain
+ADDED from AndroidManifest.xml:69:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+activity#com.AtyLogin
+ADDED from AndroidManifest.xml:72:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:75:13
+	android:label
+		ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.AtyRegist
+ADDED from AndroidManifest.xml:76:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:79:13
+	android:label
+		ADDED from AndroidManifest.xml:78:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13
+activity#com.AtyForgotPwd
+ADDED from AndroidManifest.xml:80:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:83:13
+	android:label
+		ADDED from AndroidManifest.xml:82:13
+	android:name
+		ADDED from AndroidManifest.xml:81:13
+activity#com.AtySendSms
+ADDED from AndroidManifest.xml:84:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:87:13
+	android:label
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:85:13
+activity#com.AtyGoPinProfile
+ADDED from AndroidManifest.xml:90:9
+	android:label
+		ADDED from AndroidManifest.xml:92:13
+	android:name
+		ADDED from AndroidManifest.xml:91:13
+activity#com.AtyShowPortrait
+ADDED from AndroidManifest.xml:94:9
+	android:name
+		ADDED from AndroidManifest.xml:94:19
+activity#com.AtyGoPinSelect
+ADDED from AndroidManifest.xml:95:9
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:theme
+		ADDED from AndroidManifest.xml:98:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.AtyGoPin
+ADDED from AndroidManifest.xml:99:9
+	android:label
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:102:13
+activity#com.AtySMS
+ADDED from AndroidManifest.xml:104:9
+	android:label
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:105:13
+activity#com.AtyChatAll
+ADDED from AndroidManifest.xml:107:9
+	android:label
+		ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:108:13
+activity#com.AtyContactAll
+ADDED from AndroidManifest.xml:110:9
+	android:label
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:111:13
+activity#com.AtySMSInBox
+ADDED from AndroidManifest.xml:113:9
+	android:label
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+activity#com.AtyIndRevamp
+ADDED from AndroidManifest.xml:117:9
+	android:label
+		ADDED from AndroidManifest.xml:119:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+activity#com.AtyIndCenter
+ADDED from AndroidManifest.xml:120:9
+	android:label
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+activity#com.AtyIndFeedBack
+ADDED from AndroidManifest.xml:123:9
+	android:label
+		ADDED from AndroidManifest.xml:125:13
+	android:name
+		ADDED from AndroidManifest.xml:124:13
+activity#com.AtyIndAboutUs
+ADDED from AndroidManifest.xml:126:9
+	android:label
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:127:13
+activity#com.AtyIndService
+ADDED from AndroidManifest.xml:129:9
+	android:label
+		ADDED from AndroidManifest.xml:131:13
+	android:name
+		ADDED from AndroidManifest.xml:130:13
+activity#com.AtyIndMyTieZi
+ADDED from AndroidManifest.xml:132:9
+	android:label
+		ADDED from AndroidManifest.xml:134:13
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+activity#com.AtyIndCheckOutMy
+ADDED from AndroidManifest.xml:135:9
+	android:label
+		ADDED from AndroidManifest.xml:137:13
+	android:name
+		ADDED from AndroidManifest.xml:136:13
+activity#com.AtyIndSent
+ADDED from AndroidManifest.xml:138:9
+	android:label
+		ADDED from AndroidManifest.xml:140:13
+	android:name
+		ADDED from AndroidManifest.xml:139:13
+activity#com.AtyIndSetting
+ADDED from AndroidManifest.xml:142:9
+	android:label
+		ADDED from AndroidManifest.xml:144:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+activity#com.AtyIndRevampItems
+ADDED from AndroidManifest.xml:147:9
+	android:label
+		ADDED from AndroidManifest.xml:149:13
+	android:theme
+		ADDED from AndroidManifest.xml:150:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+activity#com.AtySchoolChoose
+ADDED from AndroidManifest.xml:151:9
+	android:label
+		ADDED from AndroidManifest.xml:153:13
+	android:theme
+		ADDED from AndroidManifest.xml:154:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+activity#com.AtyDsgy
+ADDED from AndroidManifest.xml:156:9
+	android:label
+		ADDED from AndroidManifest.xml:158:13
+	android:name
+		ADDED from AndroidManifest.xml:157:13
+activity#com.jl.atys.dsgy.AtyDsgForum
+ADDED from AndroidManifest.xml:159:9
+	android:label
+		ADDED from AndroidManifest.xml:161:13
+	android:name
+		ADDED from AndroidManifest.xml:160:13
+activity#com.AtyDsgyMoreReply
+ADDED from AndroidManifest.xml:162:9
+	android:label
+		ADDED from AndroidManifest.xml:164:13
+	android:name
+		ADDED from AndroidManifest.xml:163:13
+activity#com.AtyDsgyComment
+ADDED from AndroidManifest.xml:166:9
+	android:label
+		ADDED from AndroidManifest.xml:168:13
+	android:name
+		ADDED from AndroidManifest.xml:167:13
+activity#com.AtyDsgyPostNew
+ADDED from AndroidManifest.xml:169:9
+	android:label
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+activity#com.AtyDsgyUnRead
+ADDED from AndroidManifest.xml:172:9
+	android:label
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:175:13
+activity#com.AtyDsgyUnReadContent
+ADDED from AndroidManifest.xml:176:9
+	android:label
+		ADDED from AndroidManifest.xml:178:13
+	android:name
+		ADDED from AndroidManifest.xml:177:13
+activity#com.AtyShowAll
+ADDED from AndroidManifest.xml:180:9
+	android:name
+		ADDED from AndroidManifest.xml:180:19
+activity#com.AtyShowImage
+ADDED from AndroidManifest.xml:181:9
+	android:name
+		ADDED from AndroidManifest.xml:181:19
+activity#com.AtyOpenPic
+ADDED from AndroidManifest.xml:182:9
+	android:name
+		ADDED from AndroidManifest.xml:182:19
+activity#com.AtyOpenPicItem
+ADDED from AndroidManifest.xml:183:9
+	android:name
+		ADDED from AndroidManifest.xml:183:19
+activity#com.AtyShowBigImage
+ADDED from AndroidManifest.xml:185:9
+	android:name
+		ADDED from AndroidManifest.xml:185:19
+activity#com.AtyChat
+ADDED from AndroidManifest.xml:188:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:193:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:191:13
+	android:theme
+		ADDED from AndroidManifest.xml:192:13
+	android:name
+		ADDED from AndroidManifest.xml:189:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:190:13
+activity#com.AtyBaiduMap
+ADDED from AndroidManifest.xml:195:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:197:13
+	android:theme
+		ADDED from AndroidManifest.xml:198:13
+	android:name
+		ADDED from AndroidManifest.xml:196:13
+activity#com.AtyNewFriendsMsg
+ADDED from AndroidManifest.xml:200:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:202:13
+	android:theme
+		ADDED from AndroidManifest.xml:203:13
+	android:name
+		ADDED from AndroidManifest.xml:201:13
+activity#com.AtyForwardMessage
+ADDED from AndroidManifest.xml:205:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:209:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:207:13
+	android:theme
+		ADDED from AndroidManifest.xml:208:13
+	android:name
+		ADDED from AndroidManifest.xml:206:13
+activity#com.ContextMenu
+ADDED from AndroidManifest.xml:211:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:213:13
+	android:theme
+		ADDED from AndroidManifest.xml:214:13
+	android:name
+		ADDED from AndroidManifest.xml:212:13
+activity#com.ChatAlertDialog
+ADDED from AndroidManifest.xml:216:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:218:13
+	android:theme
+		ADDED from AndroidManifest.xml:219:13
+	android:name
+		ADDED from AndroidManifest.xml:217:13
+activity#com.ShowBigImage
+ADDED from AndroidManifest.xml:221:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:223:13
+	android:theme
+		ADDED from AndroidManifest.xml:224:13
+	android:name
+		ADDED from AndroidManifest.xml:222:13
+activity#com.AtyShowNormalFile
+ADDED from AndroidManifest.xml:226:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:228:13
+	android:theme
+		ADDED from AndroidManifest.xml:229:13
+	android:name
+		ADDED from AndroidManifest.xml:227:13
+activity#com.AtyVoiceCall
+ADDED from AndroidManifest.xml:231:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:233:13
+	android:theme
+		ADDED from AndroidManifest.xml:234:13
+	android:name
+		ADDED from AndroidManifest.xml:232:13
+activity#com.AtyShowVideo
+ADDED from AndroidManifest.xml:236:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:240:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:238:13
+	android:theme
+		ADDED from AndroidManifest.xml:239:13
+	android:name
+		ADDED from AndroidManifest.xml:237:13
+activity#com.ImageGridActivity
+ADDED from AndroidManifest.xml:242:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:246:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:244:13
+	android:theme
+		ADDED from AndroidManifest.xml:245:13
+	android:name
+		ADDED from AndroidManifest.xml:243:13
+activity#com.AtyRecorderVideo
+ADDED from AndroidManifest.xml:247:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:251:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:249:13
+	android:theme
+		ADDED from AndroidManifest.xml:250:13
+	android:name
+		ADDED from AndroidManifest.xml:248:13
+receiver#com.easemob.chat.StartServiceReceiver
+ADDED from AndroidManifest.xml:253:9
+	android:name
+		ADDED from AndroidManifest.xml:253:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:254:13
+	android:priority
+		ADDED from AndroidManifest.xml:254:28
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:255:17
+	android:name
+		ADDED from AndroidManifest.xml:255:25
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from AndroidManifest.xml:256:17
+	android:name
+		ADDED from AndroidManifest.xml:256:25
+meta-data#EASEMOB_APPKEY
+ADDED from AndroidManifest.xml:262:9
+	android:name
+		ADDED from AndroidManifest.xml:263:13
+	android:value
+		ADDED from AndroidManifest.xml:264:13
+service#com.easemob.chat.EMChatService
+ADDED from AndroidManifest.xml:266:9
+	android:name
+		ADDED from AndroidManifest.xml:266:18
+service#com.baidu.location.f
+ADDED from AndroidManifest.xml:267:9
+	android:process
+		ADDED from AndroidManifest.xml:270:13
+	android:enabled
+		ADDED from AndroidManifest.xml:269:13
+	android:name
+		ADDED from AndroidManifest.xml:268:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from NewPinAi:library:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from NewPinAi:photolibrary:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from NewPinAi:smssdk:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from NewPinAi:systembarlibrary:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

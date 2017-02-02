@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dsgy_rlt_iv_slide"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/background_pink"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background_pink">
+        <TextView
+            android:id="@+id/bbs_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/dsgy_bbs_ret"
+            android:layout_alignBottom="@+id/dsgy_bbs_ret"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="简历缘"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <include
+            android:id="@+id/dsgy_bbs_ret"
+            layout="@layout/commom_back_btn_white"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bar_bottom"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/content"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_filp_card"
+            android:layout_width="160dp"
+            android:background="@drawable/btn_jly"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/background_pink"
+            android:text="就 翻 TA"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/match_ci"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:text="今天还可以剩下 0 次翻牌机会"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/top"
+        android:orientation="vertical"
+        android:layout_width="360dp"
+        android:layout_height="380dp">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dsgy_iv_slide_page"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="320dp"
+        android:focusable="true"
+        android:layout_marginLeft="10dp"
+        android:layout_above="@+id/dsgy_layout_circle_images"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+        <!-- 中间的导航的圆点 -->
+        <LinearLayout
+            android:id="@+id/dsgy_layout_circle_images"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

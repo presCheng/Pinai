@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_zph_item1"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:text="聘妻：找一个能和我相守到老的女人"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

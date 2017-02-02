@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_mtiezi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:textSize="18dp"
+        android:text="今天天气不错"
+        android:textColor="@color/background_pink"
+        android:layout_toLeftOf="@+id/row_mtiezi_msg_shu"
+        android:layout_toStartOf="@+id/row_mtiezi_msg_shu" />
+
+    <TextView
+        android:id="@+id/row_mtiezi_time"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/row_mtiezi_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="12-1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/grayfont" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/row_mtiezi_time"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/row_mtiezi_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="删除"
+        android:textSize="10sp"
+        android:textColor="@color/background_pink"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignTop="@+id/row_mtiezi_time"
+        android:layout_toRightOf="@+id/row_mtiezi_time"
+        android:layout_toEndOf="@+id/row_mtiezi_time" />
+
+    <TextView
+        android:id="@+id/row_mtiezi_msg_shu"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:background="@drawable/circlecount"
+        android:text="100"
+        android:textSize="10dp"
+        android:textColor="@color/background_pink"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/linearLayout" />
+</RelativeLayout>

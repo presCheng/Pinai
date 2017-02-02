@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/gopin_school_search"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_edit_search"
+            android:drawableLeft="@drawable/search"
+            android:gravity="center_vertical"
+            android:hint="请输入学校名称"
+            android:textColorHint="@color/gblack"
+            android:inputType="text"
+            android:textColor="@color/grayfont" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/gopin_lv_search"
+        android:layout_width="fill_parent"
+        android:divider="@color/grayfont"
+        android:layout_height="fill_parent"/>
+
+</LinearLayout>

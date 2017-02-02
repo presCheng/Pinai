@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/learylout"
+        android:drawableLeft="@drawable/login_phone"
+        android:drawablePadding="5dp"
+        android:hint="请输入手机号"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textColor="@color/gray_normal"
+        android:textColorHint="@color/grayfont"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/button1"
+            android:layout_toStartOf="@+id/button1"
+            android:background="@drawable/learylout"
+            android:drawablePadding="5dp"
+            android:hint="验证码"
+            android:inputType="number"
+            android:maxLength="12"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/gray_normal"
+            android:textColorHint="@color/grayfont"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_btn_eidt"
+            android:padding="3dp"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:visibility="gone"
+        android:background="@drawable/learylout"
+        android:drawablePadding="5dp"
+        android:hint="新密码"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/gray_normal"
+        android:textColorHint="@color/grayfont"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/confirm_new_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/new_pwd"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_marginRight="50dp"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_"
+        android:background="@drawable/learylout"
+        android:drawablePadding="5dp"
+        android:hint="新密码"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColor="@color/gray_normal"
+        android:textColorHint="@color/grayfont"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/login_pin_ai_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/pin_ai_logo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_pin_ai_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="聘爱"
+        android:textColor="@color/background_pink"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/confirm_new_pwd"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_btn_eidt"
+        android:padding="5dp"
+        android:text="重置密码"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:text="登录"
+        android:onClick="toLogin"
+        android:clickable="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@drawable/bg_text_regist" />
+</RelativeLayout>

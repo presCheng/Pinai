@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/blurred_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clipChildren="false">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView"
+                 />
+
+        </RelativeLayout>
+
+        <!--<com.fivehundredpx.android.blur.BlurringView-->
+            <!--android:id="@+id/blurring_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--app:blurRadius="2"-->
+            <!--app:downsampleFactor="2"-->
+            <!--app:overlayColor="#99FFFFFF" />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/gopin_lv_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/comment_bar_top" />
+
+            <include layout="@layout/playout" />
+
+            <RelativeLayout
+                android:id="@+id/comment_bar_top"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/background_pink">
+
+                <include layout="@layout/commom_back_btn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="学校选择"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

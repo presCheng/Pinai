@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/comment_left"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/comment_portrait"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/radio_image" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/comment_louzhu"
+                android:layout_width="34dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_btn_eidt"
+                android:gravity="center"
+                android:text="楼主"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginLeft="4dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/comment_nickname"
+                android:layout_toEndOf="@+id/comment_nickname" />
+            <TextView
+                android:id="@+id/comment_nickname"
+                android:layout_width="wrap_content"
+                android:text="徐志国"
+                android:gravity="center_vertical"
+                android:layout_height="18dp"
+                android:layout_alignTop="@+id/comment_louzhu"
+                android:textColor="@color/background_pink"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/comment_created_at"
+                android:layout_width="match_parent"
+                android:text="sad"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_normal"
+                android:textSize="12sp"
+                android:layout_below="@+id/comment_louzhu"
+                android:layout_toStartOf="@+id/comment_louzhu"
+                android:layout_toLeftOf="@+id/comment_louzhu"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/comment_left"
+        android:paddingRight="3dp"
+        android:textColor="@color/gray_normal"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:id="@+id/comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/comment_left"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:padding="3dp" />
+
+</LinearLayout>

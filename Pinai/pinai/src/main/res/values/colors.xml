@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_pink">#fe949e</color>
+    <color name="background_blue">#76D3FC</color>
+
+
+    <color name="backgroundfont">#F84F6E</color>
+    <color name="blue">#479ED7</color>
+    <color name="transparent">#00000000</color>
+    <color name="htransparent">#22200000</color>
+    <color name="gray">#f0efef</color>
+    <color name="grayfourm">#F6F7FB</color>
+
+    <color name="grayfont">#C7C7C7</color>
+    <color name="transparent_background">#90000000</color>
+    <color name="transparent_backgroundh">#99999999</color>
+    <color name="linear_line">#F2A0A8</color>
+    <color name="linear_line2">#C2ECFC</color>
+    <color name="text_color">#545454</color>
+    <color name="white">#ffffff</color>
+    <color name="ind_bg">#EFEFEF</color>
+    <color name="ind_rap_bq">#808080</color>
+
+    <color name="text_i">#686868</color>
+    <color name="text_j">#9A9697</color>
+    <color name="ind_ckt_line">#F0F2EF</color>
+    <color name="ind_ckt_line_solid">#F5FAF6</color>
+    <color name="ind_ckt_bq">#E44152</color>
+    <color name="ggray">#6E6F6F</color>
+    <color name="gblack">#3C3C3C</color>
+
+    <color name="bq_1">#FE7979</color>
+    <color name="bq_2">#FFAB50</color>
+    <color name="bq_3">#FFA3E6</color>
+    <color name="bq_4">#65CEFF</color>
+
+    <color name="pazs_1">#78D640</color>
+    <color name="pazs_2">#FFA337</color>
+    <color name="pazs_3">#FFD237</color>
+    <color name="pazs_4">#B8E01A</color>
+    <color name="pazs_5">#FA3B3B</color>
+
+    <color name="zph_1">#fe949e</color>
+    <color name="zph_2">#76d2fb</color>
+    <color name="zph_3">#ffd237</color>
+    <color name="zph_4">#b8e01a</color>
+    <color name="zph_5">#78d640</color>
+    <color name="zph_6">#ffa3e6</color>
+    <color name="zph_7">#fa3b3b</color>
+    <color name="zph_8">#29d3c5</color>
+
+    <color name="fontindc">#848484</color>
+
+    <color name="text_1">#FFC6CC</color>
+    <color name="text_2">#5cd5d5</color>
+    <color name="text_3">#8acd47</color>
+    <color name="text_4">#ffcc00</color>
+    <color name="text_5">#da70d6</color>
+
+
+
+
+    <color name="forum_azs">#FF5C5D</color>
+    <color name="forum_azs_p">#FF525D</color>
+    <color name="forum_jly">#509EFF</color>
+    <color name="forum_jly_p">#5092fF</color>
+    <color name="forum_zph">#FFBF27</color>
+    <color name="forum_zph_p">#FFBA27</color>
+    <color name="forum_ssph">#2C3242</color>
+    <color name="forum_ssph_p">#2C3F42</color>
+    <color name="view_line">#DFDFDF</color>
+
+
+
+
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#007086</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#7BABC3</color>
+    <color name="btn_blue_pressed">#1e90ff</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+
+
+
+</resources>

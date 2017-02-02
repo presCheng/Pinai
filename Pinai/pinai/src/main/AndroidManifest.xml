@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hrb.jl.pinai">
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+
+    <application
+
+        android:name="com.jl.basic.PinApplication"
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/GuideTheme">
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54b3aca8fd98c58494000770" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" />
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--  友盟  -->
+        <activity
+            android:name="cn.smssdk.SMSSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.jl.atys.AtyWel"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jl.atys.AtyGuide4"
+            android:label="@string/app_name"
+            android:screenOrientation="locked"
+            android:theme="@style/GuideTheme" />
+        <activity
+            android:name="com.jl.atys.AtyGuide1"
+            android:label="@string/app_name"
+            android:screenOrientation="locked"
+            android:theme="@style/GuideTheme" />
+        <activity
+            android:name="com.jl.atys.AtyGuide2"
+            android:label="@string/app_name"
+            android:screenOrientation="locked"
+            android:theme="@style/GuideTheme" />
+        <activity
+            android:name="com.jl.atys.AtyGuide3"
+            android:label="@string/app_name"
+            android:screenOrientation="locked"
+            android:theme="@style/GuideTheme" />
+
+        <activity
+            android:name="com.jl.atys.AtyNotify"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.AtyMain"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.jl.atys.AtyLogin"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.jl.atys.AtyRegist"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.jl.atys.AtyForgotPwd"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.jl.atys.AtySendSms"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- =============================================================== -->
+        <activity
+            android:name="com.jl.atys.gopin.AtyGoPinProfile"
+            android:label="@string/app_name" />
+        <!-- ===============论坛显示大图================= -->
+        <activity android:name="com.jl.atys.gopin.AtyShowPortrait" />
+        <activity
+            android:name="com.jl.atys.gopin.AtyGoPinSelect"
+            android:label="@string/app_name"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.jl.atys.gopin.AtyGoPin"
+            android:label="@string/app_name"
+            android:launchMode="standard" />
+        <!-- =========================================== -->
+        <activity
+            android:name="com.jl.atys.sms.AtySMS"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.sms.AtyChatAll"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.sms.AtyContactAll"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.sms.AtySMSInBox"
+            android:label="@string/app_name" />
+        <!-- ================================================== -->
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndRevamp"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndCenter"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndFeedBack"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndAboutUs"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndService"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndMyTieZi"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndCheckOutMy"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndSent"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndSetting"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.jl.atys.individualcenter.AtyIndRevampItems"
+            android:label="@string/app_name"
+            android:theme="@style/GuideTheme" />
+        <activity
+            android:name="com.jl.atys.individualcenter.AtySchoolChoose"
+            android:label="@string/app_name"
+            android:theme="@style/Transparent" />
+        <!-- ====================== 单身公寓 =================== -->
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgy"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyForum"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyMoreReply"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyComment"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyPostNew"
+            android:windowSoftInputMode = "adjustResize"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyUnRead"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.jl.atys.dsgy.AtyDsgyUnReadContent"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.ssph.AtyDsgySsph"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.jly.AtyDsgyJlY"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.zph.AtyDsgyZph"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.zph.AtyDsgyQzp"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.jl.atys.dsgy.zph.AtyDsgyOpen"
+            android:label="@string/app_name" />
+        <!-- ==============头像================== -->
+        <activity android:name="com.jl.setavatar.AtyShowAll" />
+        <activity android:name="com.jl.setavatar.AtyShowImage" />
+        <activity android:name="com.jl.opengallery.AtyOpenPic" />
+        <activity android:name="com.jl.opengallery.AtyOpenPicItem" />
+        <!-- ===============论坛显示大图================= -->
+        <activity android:name="com.jl.atys.dsgy.AtyShowBigImage" />
+        <!-- ==============      聊天界面             ==============  -->
+        <!-- 聊天页面 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyChat"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 地图 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyBaiduMap"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 新的朋友邀请消息页面 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyNewFriendsMsg"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 转发消息用户列表页面 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyForwardMessage"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" />
+        <!-- 自定义的contextmenu -->
+        <activity
+            android:name="com.jl.atys.chat.ContextMenu"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <!-- 自定义的alertdialog -->
+        <activity
+            android:name="com.jl.atys.chat.ChatAlertDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <!-- 显示下载大图页面 -->
+        <activity
+            android:name="com.jl.atys.chat.ShowBigImage"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 下载文件 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyShowNormalFile"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+        <!-- 语音通话页面 -->
+        <activity
+            android:name="com.jl.atys.chat.AtyVoiceCall"
+            android:screenOrientation="portrait"
+            android:theme="@style/nornal_style" />
+
+        <activity
+            android:name="com.jl.atys.chat.AtyShowVideo"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- choose video -->
+        <activity
+            android:name="com.jl.atys.chat.ImageGridActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.jl.atys.chat.AtyRecorderVideo"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- 开机自启动服务 -->
+        <receiver android:name="com.easemob.chat.StartServiceReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+        <!-- 设置环信应用的appkey  android:value="easemob-demo#chatdemoui" -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="jinglingkj#pinai" />
+        <!-- 声明sdk所需的service -->
+        <service android:name="com.easemob.chat.EMChatService" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+    </application>
+
+</manifest>

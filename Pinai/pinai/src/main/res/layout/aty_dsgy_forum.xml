@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_height="match_parent"
+    android:background="@color/grayfourm"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background_pink">
+
+        <TextView
+            android:id="@+id/bbs_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/dsgy_bbs_ret"
+            android:layout_alignBottom="@+id/dsgy_bbs_ret"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="爱情诊所"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/dsgy_bbs_submit"
+            android:layout_width="50dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@color/transparent"
+            android:textColor="@drawable/bg_btn_return"
+            android:enabled="false"
+            android:onClick="postNew"
+            android:text="发帖"
+             />
+
+        <include
+            android:id="@+id/dsgy_bbs_ret"
+            layout="@layout/commom_back_btn"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <include layout="@layout/playout" />
+
+    <TextView
+        android:id="@+id/forum_no_open"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="论坛晚九点开放└(^o^)┘"
+        android:textColor="@color/background_pink"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bbs_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00000000"
+        ptr:ptrHeaderTextColor="@color/gblack"
+        android:scrollbars="none"
+        android:divider="@color/gray"
+        android:dividerHeight="10dp"
+        android:smoothScrollbar="true" />
+
+
+    <!--
+     android:divider="#19000000"
+        android:dividerHeight="2dp"
+	android:cacheColorHint="@android:color/transparent"  //系统切换item时的缓存色，颜色为透明
+	android:listSelector="#F6F7FB" //选中事的背景色
+	android:scrollbars="none"  // 不显示滚动条 
+-->
+</LinearLayout>

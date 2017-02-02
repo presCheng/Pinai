@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/checkout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background_blue">
+        <include layout="@layout/commom_back_btn_white" />
+        <Button
+            android:id="@+id/ind_ckt_my_btn_edit"
+            android:layout_width="80dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:text="点击编辑"
+            android:background="@color/transparent"
+            android:textColor="@drawable/bg_btn_return" />
+
+    </RelativeLayout>
+    <include layout="@layout/playout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/portrait_background"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="@color/background_blue">
+
+                <ImageView
+                    android:id="@+id/ind_ckt_touxiang"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp" />
+
+                <ImageView
+                    android:id="@+id/verify"
+                    android:visibility="gone"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignBottom="@+id/ind_ckt_touxiang"
+                    android:layout_alignLeft="@+id/ind_ckt_touxiang"
+                    android:layout_alignStart="@+id/ind_ckt_touxiang"
+                    android:background="@drawable/v"
+                    />
+
+                <TextView
+                    android:id="@+id/ind_ckt_nc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ind_ckt_touxiang"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:text="KimXu"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@+id/ind_ckt_nc"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/ind_ckt_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="出生年：1993年"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/ind_ckt_nc"
+                    />
+                <TextView
+                    android:id="@+id/ind_ckt_xz"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="星座：双鱼座"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/ind_ckt_age"
+                    android:layout_alignLeft="@+id/ind_ckt_age"
+                    android:layout_alignStart="@+id/ind_ckt_age"
+                    />
+
+                <TextView
+                    android:id="@+id/ind_ckt_school"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="学校：黑龙江工程学院"
+                    android:layout_below="@+id/ind_ckt_xz"
+                    android:layout_alignLeft="@+id/ind_ckt_xz"
+                    android:layout_alignStart="@+id/ind_ckt_xz"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/ind_ckt_province"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="所在地：黑龙江省"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_alignTop="@+id/view2"
+                    android:layout_toRightOf="@+id/view2"
+                    android:layout_toEndOf="@+id/view2" />
+                <TextView
+                    android:id="@+id/ind_ckt_salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="薪资：1000~2000"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:layout_below="@+id/ind_ckt_province"
+                    android:layout_alignLeft="@+id/ind_ckt_province"
+                    android:layout_alignStart="@+id/ind_ckt_province" />
+                <TextView
+                    android:id="@+id/ind_ckt_grade"
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:text="入学年：2012"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ind_ckt_salary"
+                    android:layout_alignLeft="@+id/ind_ckt_salary"
+                    android:layout_alignStart="@+id/ind_ckt_salary" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <com.jl.customs.FlowLayout
+                    xmlns:f="http://schemas.android.com/apk/res/hrb.jl.pinai"
+                    android:id="@+id/ind_my_flowLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="12dip"
+                    android:paddingTop="12dip"
+                    f:horizontalSpacing="10dip"
+                    f:orientation="horizontal"
+                    f:verticalSpacing="5dip" />
+
+                <TextView
+                    android:id="@+id/ind_ckt_jj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="我是一个什么人啊啊啊啊啊啊啊啊啊"
+                    android:textColor="@color/text_j"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#c9c9c9" />
+
+                <TextView
+                    android:id="@+id/ind_ckt_ah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="爱好 :"
+                    android:textColor="@color/text_j"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/ind_ckt_zajy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="聘爱宣言："
+                    android:paddingTop="10dp"
+                    android:textColor="@color/text_j"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
